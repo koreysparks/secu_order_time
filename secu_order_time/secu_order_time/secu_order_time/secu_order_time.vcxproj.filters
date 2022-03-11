@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="code">
+      <UniqueIdentifier>{640e936f-0081-478a-aa3e-33ea335ad52d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\code\EESTrader.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\run.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\EESTrader.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\EesTraderDefine.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\EesTraderErr.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\ShengliTraderApi.h">
+      <Filter>code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\code\Makefile">
+      <Filter>code</Filter>
+    </None>
+  </ItemGroup>
+</Project>
